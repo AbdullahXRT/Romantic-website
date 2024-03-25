@@ -1,0 +1,119 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f0; /* Light pink background */
+    color: #333; /* Dark text color */
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #ffccd5; /* Light pink header */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Dark text color */
+}
+
+/* Hero section styles */
+#hero {
+    background-image: url('romantic_bg.jpg'); /* Add romantic background image */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h2 {
+    font-size: 3rem;
+    color: #fff; /* White text color */
+    margin-bottom: 20px;
+}
+
+#hero button {
+    background-color: #ff4d6e; /* Pink button color */
+    color: #fff; /* White text color */
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+#hero button:hover {
+    background-color: #ff3366; /* Darker pink on hover */
+}
+
+/* About section styles */
+#about {
+    background-color: #fff; /* White background */
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2rem;
+}
+
+/* Gallery section styles */
+#gallery {
+    background-color: #ffe6f0; /* Light pink background */
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Contact section styles */
+#contact {
+    background-color: #fff; /* White background */
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.2rem;
+}
+
+/* Footer styles */
+footer {
+    background-color: #ffccd5; /* Light pink footer */
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+}
